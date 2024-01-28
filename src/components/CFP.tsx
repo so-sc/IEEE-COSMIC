@@ -1,9 +1,9 @@
 import React from "react";
 
-const About = () => {
+const CFP = () => {
   return (
     <div>
-      <h1 className="font-bold text-2xl my-3">About 2024 DISCOVER</h1>
+      <h1 className="font-bold text-2xl my-3">Call for Papers</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis
         non fugit unde autem voluptatem aspernatur ipsam impedit ea et cumque
@@ -21,4 +21,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default CFP;
