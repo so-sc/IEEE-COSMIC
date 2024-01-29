@@ -35,7 +35,7 @@ export default function RootLayout({
               />
             </div>
             <Tabs defaultValue="about">
-              <TabsList className="bg-gradient-to-br  w-fit  from-gray-700 via-gray-800 to-black">
+              <TabsList className="bg-gradient-to-br from-gray-700 via-gray-800 to-black">
                 <TabsTrigger value="about">About</TabsTrigger>
                 <TabsTrigger value="cfp">CFP</TabsTrigger>
                 <TabsTrigger value="committe">Committe</TabsTrigger>
@@ -55,7 +55,7 @@ export default function RootLayout({
               </div>
               <TabsContent
                 value="about"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between mb-5"
+                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
               >
                 <div className="md:w-1/3">
                   <div className="bg-white mb-5 h-fit rounded-lg shadow-xl ">
@@ -107,7 +107,7 @@ export default function RootLayout({
               </TabsContent>
               <TabsContent
                 value="cfp"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between mb-5"
+                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
               >
                 <div className="md:w-1/3">
                   <div className="bg-white mb-5 h-fit rounded-lg shadow-xl ">
@@ -159,7 +159,7 @@ export default function RootLayout({
               </TabsContent>
               <TabsContent
                 value="committe"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between mb-5"
+                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
               >
                 <div className="md:w-1/3">
                   <div className="bg-white mb-5 h-fit rounded-lg shadow-xl ">
@@ -206,12 +206,12 @@ export default function RootLayout({
                   </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-               <Committee/>
+                  <Committee />
                 </div>
               </TabsContent>
               <TabsContent
                 value="dates"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between mb-5"
+                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
               >
                 <div className="md:w-1/3">
                   <div className="bg-white mb-5 h-fit rounded-lg shadow-xl ">
@@ -258,7 +258,7 @@ export default function RootLayout({
                   </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Dates/>
+                  <Dates />
                 </div>
               </TabsContent>
             </Tabs>
