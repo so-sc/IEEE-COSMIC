@@ -1,23 +1,19 @@
 import React from "react";
-
 const About = () => {
   return (
-    <div>
+    <div className=" ">
       <h1 className="font-bold text-2xl my-3">About 2024 DISCOVER</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis
-        non fugit unde autem voluptatem aspernatur ipsam impedit ea et cumque
-        tempora nemo vel rerum numquam quaerat quas libero, animi distinctio
-        dolorem at, officiis, in mollitia rem. Ea iste delectus sunt a
-        consequatur error placeat iusto, molestiae aut sed voluptates molestias
-        inventore aliquid cupiditate exercitationem quibusdam velit temporibus
-        eveniet optio magnam expedita harum voluptas accusantium nulla! Amet
-        ipsa aperiam itaque ratione asperiores recusandae quasi sed aut
-        reiciendis voluptatum, sapiente impedit magnam est excepturi quis
-        consectetur fugiat corporis numquam in suscipit hic quod cumque
-        perspiciatis dicta. Laborum soluta et doloribus ad?
+      <div className="flex flex-col space-y-5 items-center">
+      <img className="w-[150px] h-[150px]" src="./DISCOVER.png" alt="img" />
+      <p className="text-sm font-bold">
+      IEEE Mangalore Subsection (R0011901) is organizing 8th International Conference on Distributed Computing, VLSI, Electrical Circuits and Robotics (2024 DISCOVER).
       </p>
-    </div>
+      <p className="text-sm">
+      2024 DISCOVER will be held in the serene premises of St. Joseph Engineering College in the region of Mangaluru, Karnataka, India. Being the eigth international conference under IEEE Mangalore Subsection, 2024 DISCOVER intends to attract people working in diverse fields: Distributed Computing, Software Engineering, VLSI, Verification, Communication Engineering, Electrical and Electronic Circuits, Robotics and Healthcare. The conference is designed to create a platform for researchers from academia and industry, practicing engineers, and students. A series of keynote presentations, technical paper and poster presentations are planned to foster vigorous exchange of research findings and ideas among the participants. All accepted and presented papers will be submitted for possible publication in IEEE Xplore® Digital Library (Conference Approval Pending), through the IEEE Conference Publications Program (CPP).
+      </p>
+    
+      </div>
+      </div>
   );
 };
 

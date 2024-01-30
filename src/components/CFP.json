@@ -1,0 +1,135 @@
+[
+    {
+      "track": "Track 1: Distributed Computing",
+      "topics": [
+        "Multi-core Architecture",
+        "Parallel & Distributed Systems",
+        "Agent-Based Systems",
+        "Autonomic Computing",
+        "Mobile & Ubiquitous Computing",
+        "Service-Oriented Computing",
+        "Scalable Servers and Systems",
+        "Intelligent Computing",
+        "Secured Computing",
+        "GPU Programming",
+        "Parallel & Distributed Algorithms",
+        "Compiler Technologies for HPC",
+        "Peer to Peer Computing",
+        "Cloud Computing",
+        "Network Storage Systems",
+        "High Performance Storage Systems",
+        "Edge Computing",
+        "Serverless Computing"
+      ]
+    },
+    {
+      "track": "Track 2: Communications ",
+      "topics": [
+        "Network Algorithms",
+        "Network Control & Management",
+        "Disaster Recovery of Networks",
+        "Cognitive Communications",
+        "Wireless Sensor Networks",
+        "Software Defined Networks",
+        "Future Internet Architecture",
+        "Optical Networks",
+        "Internet of Things",
+        "Network Performance Analysis",
+        "QoS for Emergency Applications",
+        "Optical Communications",
+        "Photonics",
+        "Wireless and Mobile Networks",
+        "Ad hoc and Mesh Networks",
+        "Named Data Networking",
+        "LTE and 5G Networks",
+        "Body Area Networks",
+        "Unmanned Aerial Vehicle Networks",
+        "RF and Microwave Engineering",
+        "Antenna Engineering",
+        "Waveguide and Filter design",
+        "Microwave Compatibility",
+        "Electromagnetic Interference",
+        "Microwave Theory and Techniques",
+        "Optical Fiber Communications"
+      ]
+    },
+    {
+      "track": "Track 3: VLSI ",
+      "topics": [
+        "VLSI Circuits and Systems",
+        "RF Circuit Design and Testing",
+        "Emerging Trends in VLSI",
+        "Reconfigurable Systems",
+        "System on Chip",
+        "Heat Dissipation Analysis",
+        "Design of MEMS Devices",
+        "Optical MEMS Devices",
+        "Nanotechnology",
+        "Photovoltaics",
+        "Analog / Mixed Signals",
+        "RF Circuit Analysis",
+        "Field Programmable Systems",
+        "System Level Design",
+        "Physical Design and Testing",
+        "Power Awareness Analysis",
+        "Design of NEMS Devices",
+        "Electrical Packaging / Codesign",
+        "Thin Film and Devices"
+      ]
+    },
+    {
+      "track": "Track 4: Electrical AC/DC Circuits",
+      "topics": [
+        "Electrical AC/DC Circuits",
+        "Analog and Digital Circuits",
+        "High-speed/low-power circuits",
+        "Near and sub-threshold circuits",
+        "Nonlinear Circuits & Systems",
+        "Neural/fuzzy-logic circuits",
+        "Energy-efficient systems and circuits",
+        "FPGA based systems"
+      ]
+    },
+    {
+      "track": "Track 5: Robotic ",
+      "topics": [
+        "Robotic Technologies",
+        "Robots for Industrial Applications",
+        "Robots for Domestic Premises",
+        "Robots for Education",
+        "Robots for Health Care",
+        "Robots for Transportation",
+        "Robots for Commercial Usage",
+        "Humanoids"
+      ]
+    },
+    {
+      "track": "Track 6:Healthcare",
+      "topics": [
+        "Biomedical Sensors and Wearable Systems",
+        "Therapeutic and Diagnostic Systems and Technologies",
+        "Biomedical and Health Informatics",
+        "Translational Engineering for Healthcare Innovation and Commercialization",
+        "Biomedical Signal and Image Processing",
+        "Pattern Recognition"
+      ]
+    },
+    {
+        "track":"Other Important Links",
+        "topics":[
+            "Important Dates",
+"Paper Submission Details",
+"Registration Details"
+        ]
+    },
+    {
+        "track":"Best Paper Awards",
+        "topics":[
+            "The Technical Programme Committee of DISCOVER will select One Best Paper in each of the tracks mentioned above.",
+"It is mandatory to present the paper during the Conference so as to be considered for Best Paper Award.",
+"Best Paper Awards will be announced and distributed during the Conference."
+
+        ]
+    }
+  ]
+  
