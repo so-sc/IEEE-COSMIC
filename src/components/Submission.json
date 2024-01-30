@@ -1,38 +1,37 @@
 [
-    {
-        "title":"Instructions for authors:",
-        "content":[
-            "Kindly note that 2024 DISCOVER will follow a 'double-blind' review process. All submitted papers will be judged based on their quality, presentation and relevance through a 'double-blind' review process, where the identities of the authors are withheld from the reviewers. Therefore, the authors are required to preserve the anonymity of submission, while at the same time allowing the reader to fully gain the context of related past work, including their own. Papers that do not conform with 'double-blind submission' policies will be rejected without review (Very Important!). Please read the guidelines (given below) to preserve anonymity with double-blind submission.",
-            "Since the 'Accepted and presented papers' of 2024 DISCOVER will be submitted for possible publication in the IEEE Xplore® Digital Library (Conference Approval Pending), the manuscript must strictly adhere to the standard IEEE two column format and must not be more than 6 pages.",
-            "Typesetting instructions and sample templates: IEEE Manuscript Templates for Conference Proceedings",
-            "The Camera Ready Copy (CRC) of every 'accepted' paper will be subjected to the 'similarity check' using IEEE CrossCheck and Prohibited Authors List (PAL). The CRC that fails these checks would be rejected."
-        ]
-    },
-    {
-        "title":"Guidelines to preserve anonymity for 'double-blind' submissions:",
-        "content":[
-            "Remove the names and affiliations of authors from the title page of the PDF file that you submit for review. This information must be included in the final camera ready copy if your paper gets accepted. While submitting your paper for review, you need to include all the author details only at the registration page. The PDF file of the paper should not have the author information.",
-            "Remove acknowledgments of identifying names and funding sources from the PDF file that you will submit for review. This information must be included in the final camera ready copy if your paper gets accepted.",
-            "Remove project titles or names that can be used to trace back to the authors via a web search engine.",
-            "Name your files carefully. The source file names (e.g., 'Rajesh.dvi') are often embedded in the final output as accessible comments.",
-            "Use care in referring to your previous works as related works. Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context. Instead, you can reference your past work in the third person format, just like any other piece of related work by another author. For example, instead of 'Recently, we have proposed a new protocol [9] ...,' sentences in the spirit of “Recently, the authors in [9] have proposed a new protocol ... may be used",
-            "Papers with the same title and abstract should not be posted on a public website, such as arxiv.org, or shared via public mailing lists or communicated to other conferences/journals/publications."
-
-        ]
-    },
-    {
-        "title":"Important IEEE policy:",
-        "content":[
-            "IEEE reserves the right to exclude a paper from distribution after the conference (including its removal from IEEE Xplore) if the paper is not presented at the conference.",
-            "Papers are reviewed on the basis that they do not contain plagiarized material and have not been submitted to any other conference at the same time (double submission). These matters are taken very seriously and the IEEE will take action against any author who engages in either practice. Kindly follow these links for more details: IEEE Policy on Plagiarism and IEEE Policy on Double Submission.",
-            "Submitted papers must be unpublished and not currently under review for any other publication. The authors of accepted papers will need to sign an IEEE Copyright form and present their paper at the conference"
-        ]
-    },
-    {
-        "title":"Paper submission link:",
-        "content":[
-            "Kindly submit the paper through the following link:",
-            "Paper submission via email is not permitted. The papers submitted via email will be rejected without review."
-        ]
-    }
+  {
+    "title": "Instructions for authors:",
+    "content": [
+      "Kindly note that 2024 COSMIC will follow a 'double-blind' review process. All submitted papers will be judged based on their quality, presentation and relevance through a 'double-blind' review process, where the identities of the authors are withheld from the reviewers. Therefore, the authors are required to preserve the anonymity of submission, while at the same time allowing the reader to fully gain the context of related past work, including their own. Papers that do not conform with 'double-blind submission' policies will be rejected without review (Very Important!). Please read the guidelines (given below) to preserve anonymity with double-blind submission.",
+      "Since the 'Accepted and presented papers' of 2024 COSMIC will be submitted for possible publication in the IEEE Xplore® Digital Library (Conference Approval Pending), the manuscript must strictly adhere to the standard IEEE two column format and must not be more than 6 pages.",
+      "Typesetting instructions and sample templates: IEEE Manuscript Templates for Conference Proceedings",
+      "The Camera Ready Copy (CRC) of every 'accepted' paper will be subjected to the 'similarity check' using IEEE CrossCheck and Prohibited Authors List (PAL). The CRC that fails these checks would be rejected."
+    ]
+  },
+  {
+    "title": "Guidelines to preserve anonymity for 'double-blind' submissions:",
+    "content": [
+      "Remove the names and affiliations of authors from the title page of the PDF file that you submit for review. This information must be included in the final camera ready copy if your paper gets accepted. While submitting your paper for review, you need to include all the author details only at the registration page. The PDF file of the paper should not have the author information.",
+      "Remove acknowledgments of identifying names and funding sources from the PDF file that you will submit for review. This information must be included in the final camera ready copy if your paper gets accepted.",
+      "Remove project titles or names that can be used to trace back to the authors via a web search engine.",
+      "Name your files carefully. The source file names (e.g., 'Rajesh.dvi') are often embedded in the final output as accessible comments.",
+      "Use care in referring to your previous works as related works. Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context. Instead, you can reference your past work in the third person format, just like any other piece of related work by another author. For example, instead of 'Recently, we have proposed a new protocol [9] ...,' sentences in the spirit of “Recently, the authors in [9] have proposed a new protocol ... may be used",
+      "Papers with the same title and abstract should not be posted on a public website, such as arxiv.org, or shared via public mailing lists or communicated to other conferences/journals/publications."
+    ]
+  },
+  {
+    "title": "Important IEEE policy:",
+    "content": [
+      "IEEE reserves the right to exclude a paper from distribution after the conference (including its removal from IEEE Xplore) if the paper is not presented at the conference.",
+      "Papers are reviewed on the basis that they do not contain plagiarized material and have not been submitted to any other conference at the same time (double submission). These matters are taken very seriously and the IEEE will take action against any author who engages in either practice. Kindly follow these links for more details: IEEE Policy on Plagiarism and IEEE Policy on Double Submission.",
+      "Submitted papers must be unpublished and not currently under review for any other publication. The authors of accepted papers will need to sign an IEEE Copyright form and present their paper at the conference"
+    ]
+  },
+  {
+    "title": "Paper submission link:",
+    "content": [
+      "Kindly submit the paper through the following link:",
+      "Paper submission via email is not permitted. The papers submitted via email will be rejected without review."
+    ]
+  }
 ]

@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "title": "ORGANIZING CHAIRS",
+      "links": [
+        {
+          "text": "Dr. Mustafa Basthikodi",
+          "url": "mailto:mustafa.cs@sahyadri.edu.in"
+        },
+        {
+          "text": "Dr. Rithesh Pakkala",
+          "url": "mailto:rpakkala.is@sahyadri.edu.in"
+        }
+      ]
+    },
+
+    {
+      "title": "HOW TO REACH",
+      "links": [
+        {
+          "text": "Get Directions",
+          "url": "https://www.google.com/maps?sca_esv=1988b3a509d1e210&output=search&q=sahyadri+college+of+engineering&source=lnms&entry=mc"
+        },
+        {
+          "text": "Tourist Attractions",
+          "url": "https://www.holidify.com/places/mangalore/"
+        },
+        {
+          "text": "Hotel Information",
+          "url": "https://www.tripadvisor.in/Hotels-g297630-Mangalore_Dakshina_Kannada_District_Karnataka-Hotels.html"
+        }
+      ]
+    }
+  ]
+}

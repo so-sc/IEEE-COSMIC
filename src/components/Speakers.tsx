@@ -15,11 +15,11 @@ const Speakers = () => {
                 <p>{para}</p>
               ))}
             </div>
-            <img
+            {/* <img
               className="w-[140px] h-[140px] flex-2 "
               src={speaker.src}
               alt=" img"
-            />
+            /> */}
           </div>
         </div>
       ))}

@@ -1,36 +1,68 @@
-
 [
   {
     "position": "Chief Patrons",
     "people": [
-      "Most Rev. Dr. Peter Paul Saldanha, Bishop, Diocese of Mangalore, India"
+      "Dr. Manjunath Bhandary (Chairman, Bhandary Foundation, Mangalore, India)",
+      "Dr. S. Vidyashankar (Vice Chancellor, VTU, Belagavi, India)"
     ]
   },
+
   {
     "position": "Patrons",
     "people": [
-      "Rev. Fr Wilfred Prakash D'Souza, Director, SJEC Mangaluru, India",
-      "Fr Kenneth Rayner Crasta, Assistant Director, SJEC Mangaluru, India"
+      "Sr. Jagannath Chowta (Trustee, Shancery Foundation, Margaluru, India)",
+      "Se Devise Ingle (Trustee, Bharti M)",
+      "Dr. Manjappa Sarathi (Director, R&D, SCEM, Mangaluru, India)"
+    ]
+  },
+  {
+    "position": "General Chair",
+    "people": ["Dr. S. S. Injaganeri (SCEM, Mangaluru, India)"]
+  },
+  {
+    "position": "Organizing Chair",
+    "people": [
+      "Dr. Mustafa Basthikodi (SCEM Mangaluru, India)",
+      "Rithesh Pakkala P (SCEM, Mangaluru, India)"
+    ]
+  },
+  {
+    "position": "Program Chair",
+    "people": [
+      "Dr. Mustafa Basthikodi (SCEM Mangaluru, India)",
+      "S. V. Sathyanarayana (JNNCE Shivamogga, India)",
+      "Shamantha Rai B (SCEM Mangaluru, India)",
+      "Vasudheva Acharya (NMAMIT Nitte, India)",
+      "Venugopala P. S (NMAMIT Nitte, India)"
     ]
   },
   {
     "position": "Advisory Committee",
     "people": [
-      "Ashwin T S, Vanderbilt University, Tennessee, USA",
-      "B H Shekar, Mangalore University, India",
+      "Alex Khang, Global Research Institute of Technology and Engineering, NC, USA",
+      "Ananth Prabhu G., SCEM Mangaluru, India",
+      "Arjun Atreya, Accenture, Bengaluru, India",
+      "Arun K. L., Wipro, Bengaluru, India",
       "B. E. Rangaswamy, Visvesvaraya Technological University, Belagavi, India",
-      "D. S. Guru, University of Mysore, India",
+      "Bunil Balabantaray, NIT Meghalaya, India",
+      "Deepak Naik, MNIT Jaipur, India",
+      "Hong Lin, University of Houston, Houston, USA",
       "K. Chandrasekaran, NITK Surathkal, India",
+      "M. A. Ajay Kumara, Lenoir-Rhyne University, NC, USA",
+      "M. Srinath, SCEM Manglauru, India",
+      "Manjula S. H., UVCE Bengaluru, India",
       "Mohammed Javed, IIIT Allahabad, India",
       "Nagabhushan P., Vignan University, Andhra Pradesh, India",
-      "Purushothama Chippar, SJEC Mangaluru, India"
-    ]
-  },
-  {
-    "position": "General Chairs",
-    "people": [
-      "Rio D'Souza, SJEC Mangaluru, India",
-      "Vasudeva, NMAMIT Nitte, India"
+      "Nagabhushana T. N., East West Group of Institutions, Bengaluru, India",
+      "Navjot Singh, IIIT Allahabad, India",
+      "Ravindra R. Kaikini, SCEM Manglauru, India",
+      "S. S. Balakrishna, SCEM Mangaluru, India",
+      "Steven L. Fernandes, Creighton University, Omaha, USA",
+      "T. N. Sreenivasa, Visvesvaraya Technological University, Belagavi, India",
+      "Varadraj Prabhu Gurpur, University of Central Florida, Orlando, USA",
+      "Vijaya P., Modern College of Business and Science, Bowshar, Sultanate of Oman",
+      "Vishal Samartha, SCEM Mangaluru, India",
+      "Waseem Ahmed, King Abdul Aziz University, Jeddah, Saudi Arabia"
     ]
   },
   {
@@ -41,157 +73,25 @@
       "Bindumadhava, C-DAC Bengaluru, India",
       "Divya M. G., C-DAC Bengaluru, India",
       "Manohar Pai M. M., MIT Manipal, India",
-      "Mohit P. Tahiliani, NITK Surathkal, India",
-      "Niranjan N. Chiplunkar, NMAMIT Nitte, India",
-      "Niranjan U. C., Chair (2020) IEEE Mangalore Subsection, India",
       "Poornalatha G., MIT Manipal, India",
       "Puneet Misra, ISRO Bengaluru, India",
+      "Niranjan N. Chiplunkar, NMAMIT Nitte, India",
+      "Niranjan U. C., Manipal Dot Net Pvt. Ltd, Manipal, India",
+      "P. Deepa Shenoy, UVCE Bengaluru, India",
       "Pushparaj Shetty D., NITK Surathkal, India",
-      "T. Srinivasa, IISc Bangalore, India"
-    ]
-  },
-  {
-    "position": "Program Chairs",
-    "people": [
-      "Dayakshini, SJEC Mangaluru, India",
-      "S. V. Sathyanarayana, JNNCE Shivamogga, India",
-      "Shreenath Acharya, SJEC Mangaluru, India",
-      "Venugopala P. S., NMAMIT Nitte, India"
-    ]
-  },
-  {
-    "position": "Organizing Chairs",
-    "people": [
-      "Harivinod N, SJEC Mangaluru, India",
-      "Sridevi Saralaya, SJEC Mangaluru, India"
-    ]
-  },
-  {
-    "position": "Publication Chairs",
-    "people": [
-      "Gurudeva Shastri Hiremath, SCEM Mangaluru, India",
-      "Gururaj S, SCEM Mangaluru, India",
-      "Sunitha Guruprasad, SJEC Mangaluru, India"
-    ]
-  },
-  {
-    "position": "Finance Chairs",
-    "people": [
-      "Ajithanjaya Kumar M K, SJEC Mangaluru, India",
-      "Gayana M N, SJEC Mangaluru, India",
-      "Sourav Kanti Addya, NITK Surathkal, India"
-    ]
-  },
-  {
-    "position": "Sponsorship Chairs",
-    "people": [
-      "Glenson Toney, SJEC Mangaluru, India",
-      "Nisha Jenifer Roche, SJEC Mangaluru, India",
-      "Prasad S M, SJEC Mangaluru, India",
-      "Sathyendra Bhat J, SJEC Mangaluru, India"
-    ]
-  },
-  {
-    "position": "Registration Chairs",
-    "people": [
-      "Bharathi A Rao, SJEC Mangaluru, India",
-      "Prajna M, SJEC Mangaluru, India",
-      "Renuka Tantry, SJEC Mangaluru, India",
-      "Vijayalaxmi H M, SJEC Mangaluru, India"
+      "Rio D'Souza G. L., SJEC Mangaluru, India"
     ]
   },
   {
     "position": "Technical Programme Committee Chairs",
     "people": [
+      "Anush Bekal, SCEM Mangaluru, India",
       "Ashwini B., NMAMIT Nitte, India",
       "Cifha Crecil Saldanha, MIT Manipal, India",
-      "Hareesh B, SJEC Mangaluru, India",
       "Manjunath K. N., MIT Manipal, India",
+      "Navaneeth Bhaskar, SCEM Mangaluru, India",
       "Pushpalatha K., SCEM Mangaluru, India",
-      "Roshan R Naik, SJEC Mangaluru, India",
-      "Sanath Saralaya, SJEC Mangaluru, India",
-      "Saumya Y M, SJEC Mangaluru, India",
-      "Shrisha H S, SJEC Mangaluru, India"
+      "Rathishchandra Gatti, SCEM Mangaluru, India"
     ]
-  },
-  {
-    "position": "Technical Programme Committee",
-    "people": [
-      "Abhilash, SJBIT Bengaluru, India",
-      "Adesh N.D, MIT Manipal, India",
-      "Ahamed Shafeeq B. M., MIT Manipal, India",
-      "Aijaz Ali Khan, KNSIT Bengaluru, India",
-      "Anisha P Rodrigues, NMAMIT Nitte, India",
-      "Anitha H., MIT Manipal, India",
-      "Ankitha K, CEC Mangaluru, India",
-      "Antony P. J., AJIET Mangaluru, India",
-      "Ashwini Holla V. R., CEC Mangaluru, India",
-      "Basappa Kodada, CEC Mangaluru, India",
-      "Basavaraj Talawar, NITK Surathkal, India",
-      "Bharath Bhushan S. N., SCEM Mangaluru, India",
-      "D. K. Sreekantha, NMAMIT Nitte, India",
-      "Dattatraya N. Gaonkar, NITK Surathkal, India",
-      "Debashisha Jena, NITK Surathkal, India",
-      "Demian Antony D'Mello, CEC Mangaluru, India",
-      "Dilip Kumar S. M., UVCE Bengaluru, India",
-      "G. M. Bairy, MIT Manipal, India",
-      "Ganesh Bhat, CEC Mangaluru, India",
-      "Geetha V, NITK Surathkal, India",
-      "Guttur F Ali Ahammed, VTU Belagavi, India",
-      "Hareesh K. S., MIT Manipal, India",
-      "Harish S. V., MIT Manipal, India",
-      "Jagadeesha R. Bhat, SJEC Mangaluru, India",
-      "Jidesh P, NITK Surathkal, India",
-      "Jothi Ramalingam, NITK Surathkal, India",
-      "Jyothi Shetty, NMAMIT Nitte, India",
-      "K V S S S S S Sairam, NMAMIT Nitte, India",
-      "K. B. Raja, UVCE Bengaluru, India",
-      "K. S. Shridhara, UBDTCE Davangere, India",
-      "Karthik Pai B. H, NMAMIT Nitte, India",
-      "Karuna Pandit, NMAMIT Nitte, India",
-      "Karunakar A. K., MIT Manipal, India",
-      "Kavitha Mahesh, SJEC Mangaluru, India",
-      "Kiran M., NITK Surathkal, India",
-      "Kirankumar V G, AJIET Mangaluru, India",
-      "Krishna A. N., SJBIT Bengaluru, India",
-      "Krishna Prakasha K, MIT Manipal, India",
-      "Kumaraswamy S., UVCE Bengaluru, India",
-      "Mandeep Singh, NITK Surathkal, India",
-      "Manjunath Kotari, AIET Mangaluru, India",
-      "Mohammed Rafi, UBDTCE Davanagere, India",
-      "Murali Krishna S N, MIT Manipal, India",
-      "Naveena C., SJBIT Bengaluru, India",
-      "Niranjana Sampathila, MIT Manipal, India",
-      "Parthiban Perumal, NITK Surathkal, India",
-      "Prabha Niranjan, NMAMIT Nitte, India",
-      "Prashantha H. Kumar, NITK Surathkal, India",
-      "Premkumar B. C., SCEM Mangaluru, India",
-      "R. K. Manjunath, RVCE Bengaluru, India",
-      "R. Kalpana, NITK Surathkal, India",
-      "Radhakrishna, NMAMIT Nitte, India",
-      "Radhika M. Pai, MIT Manipal, India",
-      "Raghurama Holla, MIT Manipal, India",
-      "Raju K., NMAMIT Nitte, India",
-      "Ramakrishna M, MIT Manipal, India",
-      "Ramya Lokesh, MIT Manipal, India",
-      "Rathnamala Rao, NITK Surathkal, India",
-      "Ravishankar, RVCE Bengaluru, India",
-      "Roshan Fernandes, NMAMIT Nitte, India",
-      "Sampath Kumar V., JSSATE Noida, India",
-      "Sandeep Bhat, SCEM Mangaluru, India",
-      "Sandra D'Souza, MIT Manipal, India",
-      "Sarika Hegde, NMAMIT Nitte, India",
-      "Saumya Hegde, NITK Surathkal, India",
-      "Shankar B. B, NMAMIT Nitte, India",
-      "Shankarmurthy H. M., SCEM Mangaluru, India",
-      "Sharmila Kumari, PACE Mangaluru, India",
-      "Shashidhar Kini K., SIT Mangaluru, India",
-      "Shilpashree S., NCET Bengaluru, India",
-      "Shreema Rai, SCEM Mangaluru, India",
-      "Shreyas Rao, BITS Pilani, Bengaluru, India",
-      "Shridhara Murthy K. S., UBDTCE Davangere, India",
-      "Shyam Lal, NITK Surathkal, India"
-    ]
-}
+  }
 ]
-     

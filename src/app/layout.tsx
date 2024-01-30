@@ -35,7 +35,7 @@ export default function RootLayout({
           <div className="max-w-5xl md:px-10 px-5">
             <div>
               <img
-                src="/cover1.png"
+                src="/cover.jpg"
                 className="my-5 shadow-md rounded-lg"
                 alt="cover"
               />
@@ -47,7 +47,7 @@ export default function RootLayout({
                 <TabsTrigger value="committe">Committe</TabsTrigger>
                 <TabsTrigger value="dates">Dates</TabsTrigger>
                 <TabsTrigger value="speakers">Speakers</TabsTrigger>
-                <TabsTrigger value="sponsors">Sponsors</TabsTrigger>
+                {/* <TabsTrigger value="sponsors">Sponsors</TabsTrigger> */}
                 <TabsTrigger value="submissions">Submissions</TabsTrigger>
                 <TabsTrigger value="registration">Registration</TabsTrigger>
                 <TabsTrigger value="contact">Contact</TabsTrigger>
@@ -72,40 +72,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <About />
@@ -124,40 +90,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <CFP />
@@ -176,40 +108,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Committee />
@@ -228,40 +126,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Dates />
@@ -280,46 +144,12 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Speakers />
                 </div>
               </TabsContent>
-              <TabsContent
+              {/* <TabsContent
                 value="sponsors"
                 className="flex md:flex-row gap-5 flex-col-reverse justify-between"
               >
@@ -332,45 +162,11 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Sponsors />
                 </div>
-              </TabsContent>
+              </TabsContent> */}
               <TabsContent
                 value="submissions"
                 className="flex md:flex-row gap-5 flex-col-reverse justify-between"
@@ -384,40 +180,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Submission />
@@ -436,40 +198,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Registration />
@@ -488,40 +216,6 @@ export default function RootLayout({
                       <img src="/sosc.png" alt="sosc" className="w-32" />
                     </div>
                   </div>
-                  <div className="bg-white h-fit rounded-lg shadow-xl ">
-                    <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
-                      PREVIOUS EDITIONS
-                    </div>
-                    <div className="py-5 px-5 flex justify-start items-center">
-                      <ul className="flex flex-col gap-3">
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>{" "}
-                        <li className="text-blue-600 font-semibold transition-colors duration-200 hover:text-black">
-                          <Link href="#" target="_blank">
-                            Link 1
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
                 </div>
                 <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
                   <Contact />
