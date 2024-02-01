@@ -6,11 +6,11 @@ const Committee = () => {
       <h1 className="font-bold text-2xl my-3">Conference Committee</h1>
 
       <div>
-        {committeeData.map((data) => (
-          <div className="mb-3">
+        {committeeData.map((data, index) => (
+          <div key={index} className="mb-3">
             <p className="text-sm text-[#018100] font-bold">{data.position}</p>
-            {data.people.map((p) => (
-              <p>{p}</p>
+            {data.people.map((p, index) => (
+              <p key={index}>{p}</p>
             ))}
           </div>
         ))}

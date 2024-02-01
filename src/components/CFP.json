@@ -1,15 +1,52 @@
 [
   {
     "track": "Track 1: Computing",
-    "topics": [""]
+    "topics": [
+      "Multi-core Architecture",
+      "Parallel & Distributed Systems",
+      "Agent-Based Systems",
+      "Autonomic Computing",
+      "Mobile & Ubiquitous Computing",
+      "Service-Oriented Computing",
+      "Scalable Servers and Systems",
+      "Secured Computing",
+      "GPU Programming",
+      "Parallel & Distributed Algorithms",
+      "Compiler Technologies for HPC",
+      "Peer to Peer Computing",
+      "Cloud Computing",
+      "Network Storage Systems",
+      "High Performance Storage Systems",
+      "Edge Computing",
+      "Serverless Computing"
+    ]
   },
   {
     "track": "Track 2: Semiconductor",
-    "topics": [""]
+    "topics": [
+      "Advanced Manufacturing",
+      "Heterogeneous Integration",
+      "Compound Semiconductors",
+      "Automotive Chips",
+      "Smart Manufacturing",
+      "Sustainable Manufacturing",
+      "Semiconductor Cybersecurity",
+      "Nanoscience and Nanoengineering",
+      "Micro- and nanophotonics and Optoelectronics",
+      "Microwave and Millimeter Wave Circuits and Systems",
+      "Microsensors and Microsystems",
+      "Semiconductor Devices",
+      "Integrated Circuits",
+      "Organic Semiconductors",
+      "Device Modeling & Simulations",
+      "Compound semiconductor based devices",
+      "Crystal Growth of Semiconductor Materials"
+    ]
   },
   {
     "track": "Track 3: Mechatronics",
     "topics": [
+      "Industrial and Consumer Robotics",
       "Industrial Automation",
       "Digital Manufacturing",
       "Autonomous vehicle Systems",
@@ -19,15 +56,77 @@
       "Intelligent Energy Systems",
       "Smart Materials",
       "AI in Physical Systems",
-      "Industrial and Consumer Robotics"
+      "Applied Mechatronics",
+      "Computational Mechatronics",
+      "Mechanical Power Engineering",
+      "Robotic Automation and Control",
+      "Automated Guided Vehicles"
     ]
   },
   {
     "track": "Track 4: Intelligent Systems",
-    "topics": [""]
+    "topics": [
+      "Intelligent Behaviour and Intelligent Control",
+      "Intelligent Decision-Making Systems",
+      "Intelligent Information Processing",
+      "Intelligent Measurement",
+      "Intelligent Pattern Recognition",
+      "Context-aware pervasive systems",
+      "Intelligent Transportation Systems",
+      "Internet of Things",
+      "Smart Cities",
+      "Geographic Information Systems",
+      "Big Data",
+      "Neuromorphic systems",
+      "Sensing and Sensor Networks",
+      "Affective computing",
+      "Deep Learning",
+      "Large language models (LLMs)",
+      "Neural Networks",
+      "Natural Language Processing",
+      "Data Science",
+      "Machine Learning",
+      "Biometrics",
+      "Sentiment Analysis",
+      "Intelligent Human-Machine Interaction",
+      "Intelligent Hybrid Systems",
+      "Intuitionist Fuzzy Sets",
+      "Quantum Computing",
+      "Mobile Computing",
+      "Cellular automata /cellular computing",
+      "Biologically-inspired computing",
+      "Collective intelligence in computing"
+    ]
   },
   {
     "track": "Track 5: Communications",
-    "topics": [""]
+    "topics": [
+      "Network Algorithms",
+      "Network Control & Management",
+      "Disaster Recovery of Networks",
+      "Cognitive Communications",
+      "Wireless Sensor Networks",
+      "Software Defined Networks",
+      "Future Internet Architecture",
+      "Optical Networks",
+      "Internet of Things",
+      "Network Performance Analysis",
+      "QoS for Emergency Applications",
+      "Optical Communications",
+      "Photonics",
+      "Wireless and Mobile Networks",
+      "Ad hoc and Mesh Networks",
+      "Named Data Networking",
+      "LTE and 5G Networks",
+      "Body Area Networks",
+      "Unmanned Aerial Vehicle Networks",
+      "RF and Microwave Engineering",
+      "Antenna Engineering",
+      "Waveguide and Filter design",
+      "Microwave Compatibility",
+      "Electromagnetic Interference",
+      "Microwave Theory and Techniques",
+      "Optical Fiber Communications"
+    ]
   }
 ]

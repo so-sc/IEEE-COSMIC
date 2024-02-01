@@ -28,12 +28,12 @@ const Registration = () => {
     <div className="space-y-5 mb-5">
       <h1 className="font-bold text-2xl my-3">Registration Details</h1>
       <div>
-        {registerData.map((data) => (
-          <div>
+        {registerData.map((data, index) => (
+          <div key={index}>
             <h1 className="text-[#018100] text-sm font-bold">{data.title}</h1>
             <ol className="list-decimal list-inside">
-              {data.content.map((cont) => (
-                <li>{cont}</li>
+              {data.content.map((cont, index) => (
+                <li key={index}>{cont}</li>
               ))}
             </ol>
           </div>
