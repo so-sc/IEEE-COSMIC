@@ -1,97 +1,77 @@
-[
-  {
-    "position": "Chief Patrons",
-    "people": [
-      "Dr. Manjunath Bhandary (Chairman, Bhandary Foundation, Mangalore, India)",
-      "Dr. S. Vidyashankar (Vice Chancellor, VTU, Belagavi, India)"
-    ]
-  },
-
-  {
-    "position": "Patrons",
-    "people": [
-      "Sr. Jagannath Chowta (Trustee, Shancery Foundation, Margaluru, India)",
-      "Se Devise Ingle (Trustee, Bharti M)",
-      "Dr. Manjappa Sarathi (Director, R&D, SCEM, Mangaluru, India)"
-    ]
-  },
-  {
-    "position": "General Chair",
-    "people": ["Dr. S. S. Injaganeri (SCEM, Mangaluru, India)"]
-  },
-  {
-    "position": "Organizing Chair",
-    "people": [
-      "Dr. Mustafa Basthikodi (SCEM Mangaluru, India)",
-      "Rithesh Pakkala P (SCEM, Mangaluru, India)"
-    ]
-  },
-  {
-    "position": "Program Chair",
-    "people": [
-      "Dr. Mustafa Basthikodi (SCEM Mangaluru, India)",
-      "S. V. Sathyanarayana (JNNCE Shivamogga, India)",
-      "Shamantha Rai B (SCEM Mangaluru, India)",
-      "Vasudheva Acharya (NMAMIT Nitte, India)",
-      "Venugopala P. S (NMAMIT Nitte, India)"
-    ]
-  },
-  {
-    "position": "Advisory Committee",
-    "people": [
-      "Alex Khang, Global Research Institute of Technology and Engineering, NC, USA",
-      "Ananth Prabhu G., SCEM Mangaluru, India",
-      "Arjun Atreya, Accenture, Bengaluru, India",
-      "Arun K. L., Wipro, Bengaluru, India",
-      "B. E. Rangaswamy, Visvesvaraya Technological University, Belagavi, India",
-      "Bunil Balabantaray, NIT Meghalaya, India",
-      "Deepak Naik, MNIT Jaipur, India",
-      "Hong Lin, University of Houston, Houston, USA",
-      "K. Chandrasekaran, NITK Surathkal, India",
-      "M. A. Ajay Kumara, Lenoir-Rhyne University, NC, USA",
-      "M. Srinath, SCEM Manglauru, India",
-      "Manjula S. H., UVCE Bengaluru, India",
-      "Mohammed Javed, IIIT Allahabad, India",
-      "Nagabhushan P., Vignan University, Andhra Pradesh, India",
-      "Nagabhushana T. N., East West Group of Institutions, Bengaluru, India",
-      "Navjot Singh, IIIT Allahabad, India",
-      "Ravindra R. Kaikini, SCEM Manglauru, India",
-      "S. S. Balakrishna, SCEM Mangaluru, India",
-      "Steven L. Fernandes, Creighton University, Omaha, USA",
-      "T. N. Sreenivasa, Visvesvaraya Technological University, Belagavi, India",
-      "Varadraj Prabhu Gurpur, University of Central Florida, Orlando, USA",
-      "Vijaya P., Modern College of Business and Science, Bowshar, Sultanate of Oman",
-      "Vishal Samartha, SCEM Mangaluru, India",
-      "Waseem Ahmed, King Abdul Aziz University, Jeddah, Saudi Arabia"
-    ]
-  },
-  {
-    "position": "Steering Committee",
-    "people": [
-      "Aloknath De, Samsung, India",
-      "Annappa B., NITK Surathkal, India",
-      "Bindumadhava, C-DAC Bengaluru, India",
-      "Divya M. G., C-DAC Bengaluru, India",
-      "Manohar Pai M. M., MIT Manipal, India",
-      "Poornalatha G., MIT Manipal, India",
-      "Puneet Misra, ISRO Bengaluru, India",
-      "Niranjan N. Chiplunkar, NMAMIT Nitte, India",
-      "Niranjan U. C., Manipal Dot Net Pvt. Ltd, Manipal, India",
-      "P. Deepa Shenoy, UVCE Bengaluru, India",
-      "Pushparaj Shetty D., NITK Surathkal, India",
-      "Rio D'Souza G. L., SJEC Mangaluru, India"
-    ]
-  },
-  {
-    "position": "Technical Programme Committee Chairs",
-    "people": [
-      "Anush Bekal, SCEM Mangaluru, India",
-      "Ashwini B., NMAMIT Nitte, India",
-      "Cifha Crecil Saldanha, MIT Manipal, India",
-      "Manjunath K. N., MIT Manipal, India",
-      "Navaneeth Bhaskar, SCEM Mangaluru, India",
-      "Pushpalatha K., SCEM Mangaluru, India",
-      "Rathishchandra Gatti, SCEM Mangaluru, India"
-    ]
-  }
-]
+{
+  "ChiefPatrons": [
+    "Dr. Manjunath Bhandary (Chairman, Bhandary Foundation, Mangalore, India)",
+    "Dr. S. Vidyashankar (Vice Chancellor, VTU, Belagavi, India)"
+  ],
+  "Patrons": [
+    "Jagannath Chowta, Trustee, Bhandary Foundation, Mangaluru, India",
+    "Devdas Hegde, Trustee, Bhandary Foundation, Mangaluru, India",
+    "Manjappa Sarathi, Director - R&D, SCEM, Mangaluru, India",
+    "Johnson Tellis, Trustee & CEO, SCEM, Mangaluru, India",
+    "Rashmi Bhandary, Trustee, SCEM, Mangaluru, India"
+  ],
+  "GeneralChair": "S. S. Injaganeri, SCEM, Mangaluru, India",
+  "OrganizingChairs": [
+    "Mustafa Basthikodi, SCEM, Mangaluru, India",
+    "Rithesh Pakkala P, SCEM, Mangaluru, India"
+  ],
+  "AdvisoryCommittee": [
+    "B. E. Rangaswamy, Visvesvaraya Technological University, Belagavi, India",
+    "T N Sreenivasa, Visvesvaraya Technological University, Belagavi, India",
+    "Hong Lin, University of Houston, Houston, USA",
+    "K. Chandrasekaran, NITK Surathkal, India",
+    "Nagabhushan P., Vignan University, Andhra Pradesh, India",
+    "Varadraj Prabhu Gurpur, University of Central Florida, Orlando, USA",
+    "Alex Khang, Global Research Institute of technology and engineering, NC, USA",
+    "T. Srinivasa, IISc Bengaluru, India",
+    "Waseem Ahmed, King Abdul Aziz University, Jeddah, Saudi Arabia",
+    "Steven L Fernandes, Creighton University, Omaha, USA",
+    "Arjun Atreya, Accenture, Bengaluru, India",
+    "Abhishek Vaish, IIIT Allahabad, India",
+    "Mohammed Javed, IIIT Allahabad, India",
+    "M. A. Ajay Kumara, Lenoir-Rhyne University, NC, USA"
+  ],
+  "ProgramChairs": [
+    "Ananth Prabhu G, SCEM, Mangaluru, India",
+    "M. Srinath, SCEM, Mangaluru, India",
+    "Vasudeva Acharya, NMAMIT, Nitte, India",
+    "Venugopala P. S., NMAMIT Nitte, India",
+    "Shamantha Rai B, SCEM, Mangaluru, India"
+  ],
+  "TechnicalProgrammeCommitteeChairs": [
+    "Pushpalatha K., SCEM Mangaluru, India",
+    "Anush Bekal, SCEM, Mangaluru, India",
+    "Rathishchandra Gatti, SCEM Mangaluru, India",
+    "Shivanna K, SCEM Mangaluru, India",
+    "Suhas A Bhyratae, SCEM Mangaluru, India",
+    "Priya R Kamath, SCEM Mangaluru, India",
+    "Joyline Germine Dsa, SCEM Mangaluru, India",
+    "Navaneeth Bhaskar, SCEM Mangaluru, India",
+    "Chandana B R, SCEM Mangaluru, India",
+    "Naveen Kumar B, SCEM Mangaluru, India"
+  ],
+  "PublicationChairs": [
+    "Harisha, SCEM Mangaluru, India",
+    "G B Janardhana Swamy, SCEM Mangaluru, India",
+    "Chandra Singh, SCEM Mangaluru, India",
+    "Adarsh Rag S, SCEM Mangaluru, India"
+  ],
+  "FinanceChairs": [
+    "Ramesh Hegde, SCEM Mangaluru, India",
+    "Gurusiddayya Hiremat, SCEM Mangaluru, India"
+  ],
+  "SponsorshipChairs": [
+    "Ramesh K G, SCEM Mangaluru, India",
+    "Duddela Prashanth, SCEM Mangaluru, India",
+    "Vasudeva Rao, SCEM Mangaluru, India",
+    "Ajith B. S, SCEM Mangaluru, India"
+  ],
+  "RegistrationChairs": [
+    "Akhila Thejaswi R, SCEM Mangaluru, India",
+    "Praveen Kumar M, SCEM Mangaluru, India",
+    "Srinivas P M, SCEM Mangaluru, India",
+    "Shankarmurthy H M, SCEM Mangaluru, India",
+    "Ashwini C S, SCEM Mangaluru, India",
+    "Harinakshi C, SCEM Mangaluru, India"
+  ]
+}
