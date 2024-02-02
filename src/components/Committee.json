@@ -10,7 +10,7 @@
     "Johnson Tellis, Trustee & CEO, SCEM, Mangaluru, India",
     "Rashmi Bhandary, Trustee, SCEM, Mangaluru, India"
   ],
-  "GeneralChair": "S. S. Injaganeri, SCEM, Mangaluru, India",
+  "GeneralChair": ["S. S. Injaganeri, SCEM, Mangaluru, India"],
   "OrganizingChairs": [
     "Mustafa Basthikodi, SCEM, Mangaluru, India",
     "Rithesh Pakkala P, SCEM, Mangaluru, India"
