@@ -3,23 +3,38 @@ import registerData from "./Register.json";
 const register = [
   {
     type: "Regular Author (Industry)",
-    indianAuthor: "INR 10,000",
-    foreignAuthor: "USD 350",
-  },
-  {
-    type: "Regular Author (Academia)",
-    indianAuthor: "INR 8,000",
+    indianAuthor: "INR 9,000",
     foreignAuthor: "USD 300",
   },
   {
-    type: "IEEE Author",
-    indianAuthor: "INR 7,500",
+    type: "Regular Author (Academia)",
+    indianAuthor: "INR 7,000",
     foreignAuthor: "USD 250",
   },
   {
+    type: "IEEE Author",
+    indianAuthor: "INR 6,500",
+    foreignAuthor: "USD 200",
+  },
+  {
     type: "Student Author",
-    indianAuthor: "INR 7,000",
-    foreignAuthor: "USD 250",
+    indianAuthor: "INR 6,000",
+    foreignAuthor: "USD 200",
+  },
+  {
+    type: "IEEE Student Author",
+    indianAuthor: "INR 5,500",
+    foreignAuthor: "USD 200",
+  },
+  {
+    type: "Regular Attendee",
+    indianAuthor: "INR 2,000",
+    foreignAuthor: "USD 150",
+  },
+  {
+    type: "Student Attendee",
+    indianAuthor: "INR 1,500",
+    foreignAuthor: "USD 100",
   },
 ];
 
@@ -51,9 +66,9 @@ const Registration = () => {
           <tbody>
             {register.map((row) => (
               <tr key={row.type} className="grid grid-cols-3 px-3 gap-3">
-                <td>{row.type}</td>
-                <td>{row.indianAuthor}</td>
-                <td>{row.foreignAuthor}</td>
+                <td className="my-3">{row.type}</td>
+                <td className="my-3">{row.indianAuthor}</td>
+                <td className="my-3">{row.foreignAuthor}</td>
               </tr>
             ))}
           </tbody>

@@ -55,10 +55,10 @@ const Footer = () => {
             <Link
               href="https://www.linkedin.com/in/kumarsrajan"
               rel="noopener noreferrer"
-              className="hover:text-green-500 transition-colors text-white/50 ml-1"
+              className="hover:text-green-500 underline underline-offset-4 transition-colors text-white/50 ml-1"
               target="_blank"
             >
-              @srajankumar
+              SOSC.
             </Link>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start gap-3">
