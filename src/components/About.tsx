@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 const About = () => {
   return (
     <div className=" ">
       <h1 className="font-bold text-2xl my-3">About 2024 COSMIC</h1>
       <div className="flex flex-col space-y-5 items-center">
-        {/* <img className="w-[150px] h-[150px]" src="./DISCOVER.png" alt="img" /> */}
+        <img className="w-60" src="/cosmic_logo.png" alt="img" />
         <p className="text-sm font-bold">
           Sahyadri College of Engineering & Management is organizing
           International Conference on Computing, Semiconductor, Mechatronics,
