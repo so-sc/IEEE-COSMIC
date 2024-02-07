@@ -1,8 +1,6 @@
-import Image from "next/image";
-import React from "react";
 const About = () => {
   return (
-    <div className=" ">
+    <div>
       <h1 className="font-bold text-2xl my-3">About 2024 COSMIC</h1>
       <div className="flex flex-col space-y-5 items-center">
         <img className="w-60" src="/cosmic_logo.png" alt="img" />
