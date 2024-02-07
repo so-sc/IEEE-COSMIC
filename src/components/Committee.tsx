@@ -5,15 +5,32 @@ import committeeData from "./Committee.json";
 
 // Assuming committeeData has a structure like { OrganizingChairs: [], AdvisoryCommittee: [], ... }
 type CommitteeData = {
-  OrganizingChairs: string[];
-  AdvisoryCommittee: string[];
-  // ... other committee types
+  "Chief Patrons": string[];
+  Patrons: string[];
+  "General Chair": string[];
+  "Organizing Chairs": string[];
+  "Advisory Committee": string[];
+  "Program Chairs": string[];
+  "Technical Programme Committee Chairs": string[];
+  "Publication Chairs": string[];
+  "Finance Chairs": string[];
+  "Sponsorship Chairs": string[];
+  "Registration Chairs": string[];
 };
 
 const Committee = () => {
   const [data, setData] = useState<CommitteeData>({
-    OrganizingChairs: [],
-    AdvisoryCommittee: [] /* ... */,
+    "Chief Patrons": [],
+    Patrons: [],
+    "General Chair": [],
+    "Organizing Chairs": [],
+    "Advisory Committee": [],
+    "Program Chairs": [],
+    "Technical Programme Committee Chairs": [],
+    "Publication Chairs": [],
+    "Finance Chairs": [],
+    "Sponsorship Chairs": [],
+    "Registration Chairs": [],
   });
 
   useEffect(() => {
