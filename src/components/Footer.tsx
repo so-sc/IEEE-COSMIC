@@ -53,7 +53,7 @@ const Footer = () => {
             Copyright © {new Date().getFullYear()} COSMIC. All Rights Reserved.
             Developed by
             <Link
-              href="https://www.linkedin.com/in/kumarsrajan"
+              href="https://www.sosc.org.in/"
               rel="noopener noreferrer"
               className="hover:text-green-500 underline underline-offset-4 transition-colors text-white/50 ml-1"
               target="_blank"
