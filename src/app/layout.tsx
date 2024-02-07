@@ -19,9 +19,57 @@ import Registration from "@/components/Registration";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Technical from "@/components/Technical";
+
 export const metadata: Metadata = {
-  title: "2024 COSMIC | Sahyadri College of Engineering & Management",
+  title: {
+    default: "2024 COSMIC | Sahyadri College of Engineering & Management",
+    template: `%s - 2024 COSMIC | Sahyadri College of Engineering & Management`,
+  },
   description: "Sahyadri College of Engineering & Management",
+  keywords: [
+    "scem",
+    "Sahyadri College of Engineering & Management",
+    "Sahyadri College of Engineering and Management",
+    "SOSC",
+    "Sahyadri Open Source Community",
+    "Sahyadri Campus",
+    "Cosmic",
+    "Sahyadri Cosmic",
+    "Cosmic 2024",
+  ],
+  creator: "so-sc",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://cosmic.sahyadri.edu.in/",
+    title: "2024 COSMIC | Sahyadri College of Engineering & Management",
+    description: "Sahyadri College of Engineering & Management",
+    siteName: "2024 COSMIC | Sahyadri College of Engineering & Management",
+    // images: [
+    //   {
+    //     url: siteConfig.ogImage,
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "2024 COSMIC | Sahyadri College of Engineering & Management",
+    //   },
+    // ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "2024 COSMIC | Sahyadri College of Engineering & Management",
+    description: "Sahyadri College of Engineering & Management",
+    // images: [siteConfig.ogImage],
+    creator: "@sahyadri_osc",
+  },
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
