@@ -48,7 +48,9 @@ const Committee = () => {
             <p className="text-sm text-[#018100] font-bold">{key}</p>
             {Array.isArray(data[key as keyof CommitteeData]) ? (
               data[key as keyof CommitteeData].map((p, idx) => (
-                <p key={idx}>{p}</p>
+                <p className="text-sm" key={idx}>
+                  {p}
+                </p>
               ))
             ) : (
               <p>Not an array</p>

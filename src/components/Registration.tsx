@@ -42,13 +42,15 @@ const Registration = () => {
   return (
     <div className="space-y-5 mb-5">
       <h1 className="font-bold text-2xl my-3">Registration Details</h1>
-      <div>
+      <div className="text-sm">
         {registerData.map((data, index) => (
           <div key={index}>
             <h1 className="text-[#018100] text-sm font-bold">{data.title}</h1>
-            <ol className="list-decimal list-inside">
+            <ol className="list-decimal mt-2 px-5">
               {data.content.map((cont, index) => (
-                <li key={index}>{cont}</li>
+                <li className="py-1" key={index}>
+                  {cont}
+                </li>
               ))}
             </ol>
           </div>
@@ -56,8 +58,8 @@ const Registration = () => {
       </div>
       <div>
         <table className="w-full flex flex-col">
-          <div className="py-3 mb-3 text-white px-3 rounded-md bg-gray-900">
-            <div className="grid font-bold grid-cols-3">
+          <div className="py-3 text-sm tracking-wider mb-3 text-white px-3 rounded-md bg-gradient-to-br from-gray-700 via-gray-800 to-black">
+            <div className="grid grid-cols-3">
               <div>Registration Type</div>
               <div>Indian Author</div>
               <div>Foreign Author</div>
@@ -65,7 +67,10 @@ const Registration = () => {
           </div>
           <tbody>
             {register.map((row) => (
-              <tr key={row.type} className="grid grid-cols-3 px-3 gap-3">
+              <tr
+                key={row.type}
+                className="grid text-sm grid-cols-3 px-3 gap-3"
+              >
                 <td className="my-3">{row.type}</td>
                 <td className="my-3">{row.indianAuthor}</td>
                 <td className="my-3">{row.foreignAuthor}</td>

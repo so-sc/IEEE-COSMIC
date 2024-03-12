@@ -5,9 +5,9 @@ const About = () => {
       <div className="flex flex-col space-y-5 items-center">
         <img className="w-60" src="/cosmic_logo.png" alt="img" />
         <p className="text-sm font-bold">
-          Sahyadri College of Engineering & Management is organizing
+          Sahyadri College of Engineering & Management is organizing 2024 IEEE
           International Conference on Computing, Semiconductor, Mechatronics,
-          Intelligent Systems and Communications (COSMIC)
+          Intelligent Systems and Communications (2024 COSMIC)
         </p>
         <p className="text-sm pb-3">
           2024 COSMIC will be held in the serene premises of Sahyadri College of

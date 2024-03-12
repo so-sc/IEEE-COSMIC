@@ -3,7 +3,7 @@ const Technical = () => {
   return (
     <div className="md:w-1/3">
       <div className="bg-white mb-5 h-fit rounded-lg shadow-xl ">
-        <div className="bg-gray-900 rounded-t-lg text-white py-2 px-4">
+        <div className="bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-t-lg text-white py-2 px-4">
           TECHNICALLY SUPPORTED BY
         </div>
         <div className="py-10 px-5 flex justify-center items-center">
