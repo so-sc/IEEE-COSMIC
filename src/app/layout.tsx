@@ -19,6 +19,7 @@ import Registration from "@/components/Registration";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Technical from "@/components/Technical";
+import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: {
@@ -81,11 +82,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         <div className="flex justify-center bg-gray-200 items-center w-full">
-          <div className="max-w-5xl md:px-10 px-5">
+          <div className="max-w-5xl md:px-5 px-2">
             <div>
               <img
                 src="/cover.jpg"
-                className="my-5 shadow-md rounded-lg"
+                className="md:my-5 my-2 shadow-md rounded-lg"
                 alt="cover"
               />
             </div>
@@ -140,10 +141,11 @@ export default function RootLayout({
                   CONTACT
                 </Link>
               </div>
+              <Navigation />
               <div>
                 <img
                   src="/bg.png"
-                  className="my-5 h-80 w-full object-cover shadow-lg rounded-md"
+                  className="md:my-5 my-2 h-80 w-full object-cover shadow-lg rounded-md"
                   alt="cover"
                 />
               </div>

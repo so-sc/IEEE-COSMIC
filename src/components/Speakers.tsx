@@ -5,7 +5,7 @@ const Speakers = () => {
     <div className="space-y-4 mt-3">
       <h1 className="text-2xl font-bold">Speakers</h1>
       {speakerData.map((speaker, index) => (
-        <div key={index} className="space-y-3 p-2">
+        <div key={index} className="space-y-3">
           <p className="p-3 text-white rounded-md bg-gradient-to-br from-gray-700 via-gray-800 to-black">
             {speaker.person}
           </p>

@@ -2,7 +2,7 @@ import Link from "next/link";
 const Technical = () => {
   return (
     <div className="md:w-[31%]">
-      <div className="bg-white mb-5 shadow-lg h-fit rounded-lg">
+      <div className="bg-white lg:mb-5 mb-2 shadow-lg h-fit rounded-lg">
         <div className="bg-gradient-to-br text-sm text-center from-gray-700 via-gray-800 to-black rounded-t-lg text-white py-2 px-4">
           TECHNICALLY SUPPORTED BY
         </div>
