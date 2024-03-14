@@ -59,8 +59,8 @@ const Navigation = () => {
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[395px] bg-gray-800 gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                {components.map((component) => (
-                  <NavigationMenuLink asChild>
+                {components.map((component, index) => (
+                  <NavigationMenuLink key={index} asChild>
                     <Link
                       href={component.href}
                       className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-white text-white hover:text-gray-800 font-semibold focus:bg-accent focus:text-accent-foreground"
