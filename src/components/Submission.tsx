@@ -11,7 +11,7 @@ const Submission = () => {
         <h1 className="text-[#018100] pb-2 text-sm font-bold">
           Instructions for authors:
         </h1>
-        <ol className="list-decimal px-5 text-sm">
+        <ol className="list-decimal px-5 text-sm text-justify">
           <li className="py-1">
             Kindly note that 2024 COSMIC will follow a
             &quote;double-blind&quote; review process. All submitted papers will
@@ -61,7 +61,7 @@ const Submission = () => {
           Guidelines to preserve anonymity for &apos;double-blind&apos;
           submissions:
         </h1>
-        <ol className="list-decimal px-5 text-sm">
+        <ol className="list-decimal px-5 text-sm text-justify">
           <li className="py-1">
             Remove the names and affiliations of authors from the title page of
             the PDF file that you submit for review. This information must be
@@ -108,7 +108,7 @@ const Submission = () => {
         <h1 className="text-[#018100] pb-2 text-sm font-bold">
           Important IEEE policy:
         </h1>
-        <ol className="list-decimal px-5 text-sm">
+        <ol className="list-decimal px-5 text-sm  text-justify">
           <li className="py-1">
             IEEE reserves the right to exclude a paper from distribution after
             the conference (including its removal from IEEE Xplore) if the paper
@@ -152,16 +152,23 @@ const Submission = () => {
         <h1 className="text-[#018100] pb-2 text-sm font-bold">
           Paper submission link:
         </h1>
-        <ol className="list-decimal px-5 text-sm">
+        <ol className="list-decimal px-5 text-sm text-justify">
           <li className="py-1">
             Kindly submit the paper through the following link:
           </li>
           <Link
             href="https://cmt3.research.microsoft.com/IEEECOSMIC2024"
             target="_blank"
-            className="px-1 text-sm tracking-wide text-blue-600 font-semibold hover:underline underline-offset-4"
+            className="px-1 mb-2 sm:flex hidden text-sm tracking-wide text-blue-600 font-semibold hover:underline underline-offset-4"
           >
             https://cmt3.research.microsoft.com/IEEECOSMIC2024
+          </Link>
+          <Link
+            href="https://cmt3.research.microsoft.com/IEEECOSMIC2024"
+            target="_blank"
+            className="px-1 sm:hidden flex mb-3 text-sm tracking-wide text-blue-600 font-semibold underline underline-offset-4"
+          >
+            Click Here
           </Link>
           <li className="py-1 mb-3">
             Paper submission via email is not permitted. The papers submitted

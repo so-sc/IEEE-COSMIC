@@ -5,7 +5,7 @@ const CFP = () => {
   return (
     <div className="pb-3 space-y-3">
       <h1 className="font-bold text-2xl my-3">Call for Papers</h1>
-      <p>
+      <p className="text-justify text-sm">
         2024 COSMIC solicits paper submissions across five tracks as listed
         below. Kindly note that the submissions are not limited to the topics
         mentioned in each track.

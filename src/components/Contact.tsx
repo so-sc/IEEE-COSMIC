@@ -12,7 +12,7 @@ const Contact = () => {
           <Link
             href="mailto:cosmic@sahyadri.edu.in"
             target="_blank"
-            className="px-1 text-sm tracking-wider text-blue-600 font-semibold hover:underline underline-offset-4"
+            className="text-sm tracking-wider text-blue-600 font-semibold hover:underline underline-offset-4"
           >
             cosmic@sahyadri.edu.in
           </Link>

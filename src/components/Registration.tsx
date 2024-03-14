@@ -48,7 +48,7 @@ const Registration = () => {
             <h1 className="text-[#018100] text-sm font-bold">{data.title}</h1>
             <ol className="list-decimal mt-2 px-5">
               {data.content.map((cont, index) => (
-                <li className="py-1" key={index}>
+                <li className="py-1 text-justify" key={index}>
                   {cont}
                 </li>
               ))}

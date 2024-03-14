@@ -12,7 +12,7 @@ const Speakers = () => {
           <div className="flex text-sm">
             <div>
               {speaker.about.map((para, index) => (
-                <p className="py-2" key={index}>
+                <p className="py-2 text-justify" key={index}>
                   {para}
                 </p>
               ))}

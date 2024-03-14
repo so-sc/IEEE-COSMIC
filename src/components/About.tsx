@@ -4,12 +4,12 @@ const About = () => {
       <h1 className="font-bold text-2xl my-3">About 2024 COSMIC</h1>
       <div className="flex flex-col space-y-5 items-center">
         <img className="w-60" src="/cosmic_logo.png" alt="img" />
-        <p className="text-sm font-bold">
+        <p className="text-sm font-bold text-justify">
           Sahyadri College of Engineering & Management is organizing 2024 IEEE
           International Conference on Computing, Semiconductor, Mechatronics,
           Intelligent Systems and Communications (2024 COSMIC)
         </p>
-        <p className="text-sm pb-3">
+        <p className="text-sm pb-3 text-justify">
           2024 COSMIC will be held in the serene premises of Sahyadri College of
           Engineering & Management in the region of Mangaluru, Karnataka, India.
           Being the international conference, 2024 COSMIC intends to attract

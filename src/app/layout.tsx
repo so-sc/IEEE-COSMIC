@@ -89,17 +89,57 @@ export default function RootLayout({
                 alt="cover"
               />
             </div>
-            <Tabs defaultValue="about">
-              <TabsList className="bg-gradient-to-br from-gray-700 via-gray-800 to-black">
-                <TabsTrigger value="about">HOME</TabsTrigger>
-                <TabsTrigger value="cfp">CFP</TabsTrigger>
-                <TabsTrigger value="committe">COMMITTEE</TabsTrigger>
-                <TabsTrigger value="dates">DATES</TabsTrigger>
-                <TabsTrigger value="speakers">SPEAKERS</TabsTrigger>
-                <TabsTrigger value="submissions">SUBMISSIONS</TabsTrigger>
-                <TabsTrigger value="registration">REGISTRATIONS</TabsTrigger>
-                <TabsTrigger value="contact">CONTACT</TabsTrigger>
-              </TabsList>
+            <div>
+              <div className="bg-gradient-to-br from-gray-700 via-gray-800 to-black lg:flex p-1 rounded-lg flex-wrap gap-2 justify-between lg:px-5 hidden">
+                <Link
+                  href="/"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  HOME
+                </Link>
+                <Link
+                  href="/cfp"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  CFP
+                </Link>
+                <Link
+                  href="/committe"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  COMMITTEE
+                </Link>
+                <Link
+                  href="/dates"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  DATES
+                </Link>
+                <Link
+                  href="/speakers"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  SPEAKERS
+                </Link>
+                <Link
+                  href="/submissions"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  SUBMISSIONS
+                </Link>
+                <Link
+                  href="/registration"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  REGISTRATIONS
+                </Link>
+                <Link
+                  href="/contact"
+                  className="text-sm text-white font-semibold hover:bg-gray-900 px-3 py-2 rounded-md"
+                >
+                  CONTACT
+                </Link>
+              </div>
               <div>
                 <img
                   src="/bg.png"
@@ -107,79 +147,11 @@ export default function RootLayout({
                   alt="cover"
                 />
               </div>
-              <TabsContent
-                value="about"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
+              <div className="flex rounded-lg md:flex-row p-5 bg-white gap-5 flex-col-reverse justify-between">
                 <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <About />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="cfp"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <CFP />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="committe"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Committee />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="dates"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Dates />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="speakers"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Speakers />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="submissions"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Submission />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="registration"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Registration />
-                </div>
-              </TabsContent>
-              <TabsContent
-                value="contact"
-                className="flex md:flex-row gap-5 flex-col-reverse justify-between"
-              >
-                <Technical />
-                <div className="md:w-2/3 shadow-xl rounded-lg py-2 px-4 bg-white">
-                  <Contact />
-                </div>
-              </TabsContent>
-            </Tabs>
+                <div className="md:w-2/3 bg-white">{children}</div>
+              </div>
+            </div>
             <Footer />
             {/* <div>{children}</div> */}
           </div>
