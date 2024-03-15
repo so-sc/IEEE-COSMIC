@@ -26,12 +26,16 @@ const Footer = () => {
                 </li>
                 <li className="mt-5">
                   Previous IEEE Conferences:
-                  <Link
-                    href="/ieee-discover-2023"
-                    className="transition-all underline underline-offset-4 duration-200 hover:text-green-500 ml-1"
-                  >
-                    IEEE DISCOVER 2023
-                  </Link>
+                  <ul className="list-disc ml-5 text-sm">
+                    <li>
+                      <Link
+                        href="/ieee-discover-2023"
+                        className="transition-all underline underline-offset-4 duration-200 hover:text-green-500 ml-1"
+                      >
+                        IEEE DISCOVER 2023
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
               </nav>
             </div>
