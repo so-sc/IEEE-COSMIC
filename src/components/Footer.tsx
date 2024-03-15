@@ -5,7 +5,7 @@ import footerData from "./Footer.json";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-white/50 bg-gradient-to-br from-gray-700 via-gray-800 to-black mt-5 rounded-t-lg body-font">
+      <footer className="text-white/50 pb-10 bg-gradient-to-br from-gray-700 via-gray-800 to-black mt-5 rounded-t-lg body-font">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="flex-grow flex flex-wrap -mb-10 md:text-left text-center order-first">
             <div className="md:w-2/4 w-full px-4">
@@ -23,6 +23,15 @@ const Footer = () => {
                   </Link>
                   , Sahyadri Campus, Adyar, Mangaluru - 575007, Karnataka,
                   India.
+                </li>
+                <li className="mt-5">
+                  Previous IEEE Conferences:
+                  <Link
+                    href="/ieee-discover-2023"
+                    className="transition-all underline underline-offset-4 duration-200 hover:text-green-500 ml-1"
+                  >
+                    IEEE DISCOVER 2023
+                  </Link>
                 </li>
               </nav>
             </div>

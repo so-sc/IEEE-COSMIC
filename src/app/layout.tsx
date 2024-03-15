@@ -20,6 +20,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Technical from "@/components/Technical";
 import Navigation from "@/components/Navigation";
+import CarouselPlugin from "@/components/CarouselPlugin";
 
 export const metadata: Metadata = {
   title: {
@@ -143,11 +144,12 @@ export default function RootLayout({
               </div>
               <Navigation />
               <div>
-                <img
+                {/* <img
                   src="/bg.png"
                   className="md:my-5 my-2 h-80 w-full object-cover shadow-lg rounded-md"
                   alt="cover"
-                />
+                /> */}
+                <CarouselPlugin />
               </div>
               <div className="flex rounded-lg md:flex-row p-5 bg-white gap-5 flex-col-reverse justify-between">
                 <Technical />
